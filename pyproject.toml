@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "florence-images"
+version = "0.1.0"
+description = ""
+authors = ["Prisha Gupta <prishapg101@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+firebase-admin = "^6.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+main = "florence_images.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
